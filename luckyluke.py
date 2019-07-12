@@ -1,4 +1,3 @@
-# Pierre
 from RPi import GPIO
 from time import localtime
 from time import sleep
