@@ -1,5 +1,6 @@
 from RPi import GPIO
 from time import localtime
+
 from time import sleep
 import time
 import random 
@@ -10,8 +11,7 @@ input_pin3 = 18 #rot
 input_pin4 = 32 #blau
 
 GPIO.setmode(GPIO.BOARD)
-GPIO.setup(input_pin1 ,GPIO.IN, pull_up_down=GPIO.PUD_DOWN)
-GPIO.setup(input_pin2 ,GPIO.IN, pull_up_down=GPIO.PUD_DOWN)
+GPIO.setup(input_pin1 ,GPIO.IN, pull_up_down=GPIO.PUD_DOWN), GPIO.setup(input_pin2 ,GPIO.IN, pull_up_down=GPIO.PUD_DOWN)
 GPIO.setup(input_pin3 ,GPIO.IN, pull_up_down=GPIO.PUD_DOWN)
 GPIO.setup(input_pin4 ,GPIO.IN, pull_up_down=GPIO.PUD_DOWN)
 GPIO.setup(37,GPIO.OUT)
