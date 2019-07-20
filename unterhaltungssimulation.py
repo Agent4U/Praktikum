@@ -1433,7 +1433,7 @@ if Antwort3 == "2":
     time.sleep(1)
     print("Ok lieber doch nicht! An dieser Stelle musst du leider nochmal von vorne anfangen!")
     SystemExit
-   if Antwort21 == "39":
+   if Antwort21 == "69":
      print("Richtig!")
    else:
      print("Falsch!")
